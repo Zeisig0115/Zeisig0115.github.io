@@ -6,13 +6,13 @@ layout: page
 
 <img src="https://caihanlin.com/caihanlin.jpg" class="floatpic">
 
-Here is **Tianyou Li** [(李天佑)](https://www.eng.cam.ac.uk/profiles/hc663).<br>
+Here is **Tianyou Li** (李天佑).
 
-I am a first-year PhD student in the [Internet of Everything Group](https://oba.eco/people/) at the University of Cambridge, where I am fortunate to be supervised by [Prof. Ozgur Akan](https://oba.eco/), and advised by [Prof. Jon Crowcroft](https://www.cst.cam.ac.uk/people/jac22) and [Dr. Kai Li](https://sites.google.com/site/lukasunsw/Home). My research is supported by the Cambridge Trust and CSC Scholarships. Previously, I had the privilege of conducting summer research with [Prof. Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) in the [Artificial Intelligence Group](https://www.cl.cam.ac.uk/research/ai/).
+Currently, I am a Research Assistant at Cornell University. I work with [Prof. David Bindel](https://www.cs.cornell.edu/~bindel/), [Dr. Nate Cira](https://ciralab.bme.cornell.edu/), and [Dr. Jingjie Yeo](https://jingjieyeo.github.io/) on structure-aware Gaussian Processes and Bayesian Optimization with applications in material science and biomedical engineering.
 
 Prior to joining Cambridge, I worked on wireless networks and cybersecurity under the guidance of [Prof. Zhezhuang Xu](https://scholar.google.com.hk/citations?user=iZ7LQRkAAAAJ&hl=zh-CN) and [Dr. Meng Yuan](https://myuan27.github.io/). Additionally, I was honored to be selected as an outstanding undergraduate scholar at leading AI conferences, including AAAI 2024 and SIGKDD 2024.
 
-I am always open to academic discussions and potential collaborations. Please feel free to reach out to me at **hc663 [at] cam.ac.uk**
+I am always open to academic discussions and potential collaborations. Please feel free to reach out to me at **tl899 [at] cornell.edu**.
 
 ---
 
