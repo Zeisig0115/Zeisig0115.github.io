@@ -39,10 +39,23 @@ I am always open to academic discussions and potential collaborations. Please fe
 
 ## News and Updates
 
-- **Dec 2025**：My personal website is officially online.
-- **May 2025**：I graduated from **Cornell University** with an M.Eng. degree in ECE.
-- **Jul 2024**：I received my B.Eng. degree from the **University of Liverpool** with **First Class Honours**.
-- **Dec 2023**：A new paper on **neuromorphic computing** was accepted by **Nano Energy** (IF: 16.8).
-
+<ul style="list-style: none; padding: 0;">
+  <li style="display: flex; margin-bottom: 10px;">
+    <span style="font-weight: bold; min-width: 80px;">Dec 2025</span>
+    <span>My personal website is officially online.</span>
+  </li>
+  <li style="display: flex; margin-bottom: 10px;">
+    <span style="font-weight: bold; min-width: 80px;">May 2024</span>
+    <span>I graduated from <strong>Cornell University<strong> with an M.Eng. degree in ECE.</span>
+  </li>
+  <li style="display: flex; margin-bottom: 10px;">
+    <span style="font-weight: bold; min-width: 80px;">Jul 2024</span>
+    <span>I received my B.Eng. degree from the <strong>University of Liverpool<strong> with <strong>First Class Honours<strong>.</span>
+  </li>
+  <li style="display: flex; margin-bottom: 10px;">
+    <span style="font-weight: bold; min-width: 80px;">Dec 2023</span>
+    <span>A new paper on <strong>perovskite-based neuromorphic computing<strong> was accepted by <strong>Nano Energy<strong> (IF: 16.8).</span>
+  </li>
+</ul>
 
 ---
