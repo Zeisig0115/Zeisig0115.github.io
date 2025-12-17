@@ -2,6 +2,18 @@
 layout: page
 ---
 
+<style>
+  p {
+    text-indent: 0 !important;
+    padding-left: 0 !important;
+    margin-bottom: 1.5em !important;
+  }
+  li {
+    margin-bottom: 0.5em;
+  }
+</style>
+
+
 # About Me
 
 <img src="/images/tianyou_li.jpg" class="floatpic">
