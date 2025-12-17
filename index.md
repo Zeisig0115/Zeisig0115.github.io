@@ -22,7 +22,7 @@ layout: page
   </div>
 
   <div style="flex: 0 0 30%;">
-    <img src="https://caihanlin.com/caihanlin.jpg" class="floatpic" alt="Tianyou Li" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="/images/tianyou_li.jpg" class="floatpic" alt="Tianyou Li" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </div>
 
 </div>
