@@ -3,28 +3,9 @@ layout: page
 ---
 
 <style>
-  /* 针对正文段落的强制样式 */
   p {
-    /* 1. 彻底取消缩进 */
     text-indent: 0 !important; 
     padding-left: 0 !important;
-    
-    /* 2. 使用 padding 而不是 margin 来撑开段落间距 (Padding 不会塌陷) */
-    margin-bottom: 0 !important; 
-    padding-bottom: 24px !important; /* 强制给每段文字下面加 24px 的空白 */
-    
-    /* 3. 增加行高，防止文字挤在一起 */
-    line-height: 1.7 !important; 
-    
-    /* 4. 确保段落作为块级元素显示 */
-    display: block !important;
-  }
-
-  /* 针对列表项，也稍微增加点间距 */
-  li {
-    margin-bottom: 8px !important;
-    line-height: 1.6 !important;
-  }
 </style>
 
 
