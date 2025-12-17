@@ -3,18 +3,10 @@ layout: page
 ---
 
 <style>
-  /* 针对 Minimal Mistakes 主题的内容区域 */
-  .page__content p {
-    text-indent: 0 !important; 
+  p {
+    text-indent: 0 !important;
     padding-left: 0 !important;
-    margin-bottom: 2em !important; /* 强制增加下边距，2em 相当于空两行 */
-    display: block !important;
-  }
-  
-  /* 修复图片可能导致的文字环绕挤压问题 */
-  img.floatpic {
-    margin-bottom: 1em; /* 给图片本身也加一点下边距 */
-  }
+    }
 </style>
 
 
