@@ -141,15 +141,15 @@ My research journey is driven by a shift from <strong>merely fitting the existin
 <ul class="philosophy-list">
 <li>
 <strong>Structure as a Prior (Phase I):</strong> 
-Early on, I realized standard ML fails to generalize in data-scarce settings. I addressed this by explicitly incorporating the underlying system structure as <em>inductive biases</em>, ensuring model robustness and physical plausibility even in under-sampled regions.
+Early on, I realized standard ML fails to generalize in data-scarce settings. I addressed this by explicitly incorporating the underlying system structure as <strong>inductive biases</strong>, ensuring model robustness and physical plausibility even in under-sampled regions.
 </li>
 <li>
-<strong>Beyond Deterministic Metrics (Phase II):</strong> 
-I found deterministic improvements fragile—often outweighed by mere random seed variations. Shifting focus from "fitting data" to "knowing what we don't know," I prioritized <em>calibrated uncertainty estimates</em> over raw accuracy on static datasets.
+<strong>Beyond Deterministic Metrics (Phase II):</strong>
+I found performance gains can be spurious—often stemming from favorable artifacts of stochasticity. Shifting focus from "fitting data" to "knowing what we don't know," I prioritized <strong>calibrated uncertainty estimates</strong> over standard predictive metrics.
 </li>
 <li>
-<strong>Active Decision Making (Phase III):</strong> 
-This led to my current focus on <strong>Structure-Aware Bayesian Optimization</strong>. By combining structural priors with probabilistic modeling, I develop agents that leverage uncertainty to efficiently <em>sample the input space</em> and automate scientific discovery.
+<strong>Active Decision Making (Phase III):</strong>
+This led to my current focus on <strong>Structure-Aware Gaussian Processes & Bayesian Optimization</strong>. By combining structural priors with probabilistic surrogate modeling, I develop algorithms that leverage uncertainty to efficiently sample the input space and ultimately automate scientific discovery.
 </li>
 </ul>
 </div>
