@@ -136,12 +136,12 @@ font-weight: 600;
 <div class="research-intro-block">
 <h2 class="section-title">Research Philosophy</h2>
 <p>
-My research journey is driven by a shift from <strong>merely fitting the existing data</strong> to <strong>strategically acquiring the information we need.</strong>. This evolution consists of three key realizations:
+My research journey is driven by a shift from <strong>merely fitting the existing data</strong> to <strong>strategically acquiring the information we need</strong>. This evolution consists of three key realizations:
 </p>
 <ul class="philosophy-list">
 <li>
 <strong>Structure as a Prior (Phase I):</strong> 
-Early on, I realized standard ML fails to generalize in data-scarce scientific domains. I addressed this by explicitly incorporating physics and topology as <em>structural inductive biases</em>, ensuring model robustness even in under-sampled regions.
+Early on, I realized standard ML fails to generalize in data-scarce settings. I addressed this by explicitly incorporating the underlying system structure as <em>inductive biases</em>, ensuring model robustness and physical plausibility even in under-sampled regions.
 </li>
 <li>
 <strong>Beyond Deterministic Metrics (Phase II):</strong> 
