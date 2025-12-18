@@ -170,7 +170,7 @@ This led to my current focus on <strong>Structure-Aware Gaussian Processes & Bay
 </div>
 
 <p>
-Many systems I have studied exhibit non-smooth responses that are determined by the equilibrium points of an underlying energy function. Rather than modeling the equilibria directly, we model the latent landscape with a structure-aware GP prior that conditions on equilibrium values, gradients, and curvatures. Since observations lie on a structured path, naive zero-mean GPs assign large variances far from observations, leading to misleading minima. I therefore adopted a semi-parametric framework that jointly learns a quartic mean function and kernel hyperparameters, regularizing the landscape and yielding meaningful posteriors near transitions. 
+Many scientific systems exhibit non-smooth responses that behave as implicit functions defined by equilibrium conditions. Rather than modeling the equilibria directly, we proposed reconstructing the underlying energy landscape with a structure-aware GP prior. By incorporating a semi-parametric mean function for energy regularization and conditioning on equilibrium constraints, this approach automatically recovers accurate, multi-modal posterior distributions, enabling safe active learning strategies that efficiently navigate phase transitions.
 </p>
 
 <div class="project-gallery">
