@@ -182,6 +182,7 @@ Many scientific systems exhibit non-smooth responses that behave as implicit fun
 <img src="/images/GP/energy_landscape.png" alt="Energy Landscape" onerror="this.style.display='none'">
 <img src="/images/GP/structured_path.png" alt="Uncertainty Propagation" onerror="this.style.display='none'">
 <img src="/images/GP/posterior.png" alt="Uncertainty Propagation" onerror="this.style.display='none'">
+<img src="/images/GP/empirical_dist.png" alt="Uncertainty Propagation" onerror="this.style.display='none'">
 </div>
 </div>
 
@@ -207,9 +208,12 @@ To optimize the enzymatic reaction TMB-HRP-H<sub>2</sub>O<sub>2</sub> with multi
 </p>
 
 <div class="project-gallery">
-<img src="/images/microarray.png" alt="Microarray Platform" onerror="this.style.display='none'">
+<img src="/images/BO1/loader.png" alt="Microarray Platform" onerror="this.style.display='none'">
+<img src="/images/BO1/curves.png" alt="Microarray Platform" onerror="this.style.display='none'">
+<img src="/images/BO1/encoding.png" alt="Microarray Platform" onerror="this.style.display='none'">
 </div>
 </div>
+
 
 
 <div class="timeline-item">
