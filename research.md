@@ -158,6 +158,7 @@ This led to my current focus on <strong>Structure-Aware Gaussian Processes & Bay
 <div class="timeline-container">
 
 
+
 <div class="timeline-item">
 <div class="timeline-marker"></div>
 <div class="timeline-date">2025 - Present (Phase III)</div>
@@ -167,6 +168,10 @@ This led to my current focus on <strong>Structure-Aware Gaussian Processes & Bay
 <span class="badge">Gaussian Processes</span>
 <span class="badge">Structure-Aware ML</span>
 <span class="badge">Uncertainty Quantification</span>
+</div>
+
+<div class="advisor-info" style="margin-top: 8px; margin-bottom: 8px; font-weight: 500; color: #555;">
+    <i class="fas fa-user-graduate"></i> Advisor: <a href="https://www.cs.cornell.edu/~bindel/" target="_blank" style="text-decoration: none; color: #0066cc;">Prof. David Bindel</a> (Cornell University)
 </div>
 
 <p>
@@ -179,6 +184,7 @@ Many scientific systems exhibit non-smooth responses that behave as implicit fun
 <img src="/images/GP/posterior.png" alt="Uncertainty Propagation" onerror="this.style.display='none'">
 </div>
 </div>
+
 
 
 <div class="timeline-item">
@@ -200,6 +206,7 @@ Designed a "Neighborhood-Augmented BO" for optimizing enzymatic reactions on ada
 <img src="/images/microarray.png" alt="Microarray Platform" onerror="this.style.display='none'">
 </div>
 </div>
+
 
 <div class="timeline-item">
 <div class="timeline-marker"></div>
