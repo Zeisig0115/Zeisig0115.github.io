@@ -141,10 +141,10 @@ My research journey is driven by a shift from <strong>merely fitting the existin
 <ul class="philosophy-list">
 <li>
 <strong>Structure as a Prior (Phase I):</strong> 
-Early on, I realized standard ML fails to generalize in data-scarce settings. I addressed this by explicitly incorporating the underlying system structure as <strong>inductive biases</strong>, ensuring model robustness and physical plausibility even in under-sampled regions.
+Early on, I realized standard ML fails to generalize in data-scarce settings. I addressed this by explicitly incorporating the system's intrinsic properties as <strong>structural inductive biases</strong>, ensuring model robustness and physical plausibility even in under-sampled regions.
 </li>
 <li>
-<strong>Beyond Deterministic Metrics (Phase II):</strong>
+<strong>Beyond Predictive Metrics (Phase II):</strong>
 I found performance gains can be spurious—often stemming from favorable artifacts of stochasticity. Shifting focus from "fitting data" to "knowing what we don't know," I prioritized <strong>calibrated uncertainty estimates</strong> over standard predictive metrics.
 </li>
 <li>
