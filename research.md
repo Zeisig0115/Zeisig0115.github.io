@@ -171,7 +171,7 @@ This led to my current focus on <strong>Structure-Aware Gaussian Processes & Bay
 </div>
 
 <div class="advisor-info" style="margin-top: 8px; margin-bottom: 8px; font-weight: 500; color: #555;">
-    <i class="fas fa-user-graduate"></i> Advisor: <a href="https://www.cs.cornell.edu/~bindel/" target="_blank" style="text-decoration: none; color: #0066cc;">Prof. David Bindel</a> (Cornell University)
+<i class="fas fa-user-graduate"></i> Advisor: <a href="https://www.cs.cornell.edu/~bindel/" target="_blank" style="text-decoration: none; color: #0066cc;">Prof. David Bindel</a> (Cornell University)
 </div>
 
 <p>
@@ -191,15 +191,19 @@ Many scientific systems exhibit non-smooth responses that behave as implicit fun
 <div class="timeline-marker"></div>
 <div class="timeline-date">2025 - Present</div>
 
-<h3 class="project-title">High-Throughput Microarray Bayesian Optimization</h3>
+<h3 class="project-title">Adaptable Microarray Platform for High-Throughput Bayesian Optimization</h3>
 <div class="tech-stack">
-<span class="badge">Combinatorial Optimization</span>
-<span class="badge">Structure-Aware Design</span>
-<span class="badge">Active Learning</span>
+<span class="badge">Bayesian Optimization</span>
+<span class="badge">Structure-Aware ML</span>
+<span class="badge">AI for Science</span>
+</div>
+
+<div class="advisor-info" style="margin-top: 8px; margin-bottom: 8px; font-weight: 500; color: #555;">
+<i class="fas fa-user-graduate"></i> Advisor: <a href="https://ciralab.bme.cornell.edu/people.html" target="_blank" style="text-decoration: none; color: #0066cc;">Dr. Nate Cira</a> (Cornell University)
 </div>
 
 <p>
-Designed a "Neighborhood-Augmented BO" for optimizing enzymatic reactions on adaptable microarray platforms. Introduced a slot-constrained encoding for mixed discrete-continuous variables to eliminate rejection sampling. The method leverages co-printed neighboring wells as low-cost local perturbations to accelerate surrogate learning and reduce regret without increasing the experimental budget.
+To optimize the enzymatic reaction TMB-HRP-H<sub>2</sub>O<sub>2</sub> with multiple additive reagents, we developed a high-throughput BO framework tailored for adaptable microarray platforms. Addressing a mixed discrete-continuous design space characterized by modal transitions and hardware-imposed cardinality constraints, we introduced a slot-based encoding that enforces feasibility by construction. This representation streamlines the optimization of acquisition functions while preserving the surrogate model's capacity to capture the system's inherent non-smooth structure.
 </p>
 
 <div class="project-gallery">
