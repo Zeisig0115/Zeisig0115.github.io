@@ -144,7 +144,7 @@ My research journey is driven by a shift from <strong>merely fitting the existin
 Early on, I realized standard ML fails to generalize in data-scarce settings. I addressed this by explicitly incorporating the system's intrinsic properties as <strong>structural inductive biases</strong>, ensuring model robustness and physical plausibility even in under-sampled regions.
 </li>
 <li>
-<strong>Beyond Predictive Metrics (Phase II):</strong>
+<strong>Beyond Deterministic Metrics (Phase II):</strong>
 I found performance gains can be spurious—often stemming from favorable artifacts of stochasticity. Shifting focus from "fitting data" to "knowing what we don't know," I prioritized <strong>calibrated uncertainty estimates</strong> over standard predictive metrics.
 </li>
 <li>
@@ -157,19 +157,20 @@ This led to my current focus on <strong>Structure-Aware Gaussian Processes & Bay
 
 <div class="timeline-container">
 
+
 <div class="timeline-item">
 <div class="timeline-marker"></div>
 <div class="timeline-date">2025 - Present (Phase III)</div>
 
-<h3 class="project-title">Gaussian Processes for Implicit Functions & Phase Transitions</h3>
+<h3 class="project-title">Gaussian Processes for Uncertainty Quantification of Implicit Functions</h3>
 <div class="tech-stack">
-<span class="badge">Bayesian Optimization</span>
-<span class="badge">Physics-Informed ML</span>
+<span class="badge">Gaussian Processes</span>
+<span class="badge">Structure-Aware ML</span>
 <span class="badge">Uncertainty Quantification</span>
 </div>
 
 <p>
-Addressing the challenge of non-smooth functions in scientific optimization. I developed a physics-informed GP to reconstruct latent system energy landscapes from constrained observations of stable states. By formally conditioning the GP posterior on observations of energy, zero-gradient, and curvature at equilibrium points, this method enables safe, active learning strategies that focus sampling on critical regions like phase transitions.
+Many systems I have studied exhibit non-smooth responses that are determined by the equilibrium points of an underlying energy function. Rather than modeling the equilibria directly, we model the latent landscape with a structure-aware GP prior that conditions on equilibrium values, gradients, and curvatures. Since observations lie on a structured path, naive zero-mean GPs assign large variances far from observations, leading to misleading minima. I therefore adopted a semi-parametric framework that jointly learns a quartic mean function and kernel hyperparameters, regularizing the landscape and yielding meaningful posteriors near transitions. 
 </p>
 
 <div class="project-gallery">
@@ -178,6 +179,7 @@ Addressing the challenge of non-smooth functions in scientific optimization. I d
 <img src="/images/GP/posterior.png" alt="Uncertainty Propagation" onerror="this.style.display='none'">
 </div>
 </div>
+
 
 <div class="timeline-item">
 <div class="timeline-marker"></div>
