@@ -94,23 +94,66 @@ transition: transform 0.2s;
 transform: scale(1.05);
 }
 
-/* 引用块样式 */
-.research-hook {
-font-size: 1.1rem;
-line-height: 1.6;
-color: #444;
-border-left: 4px solid #005eb8;
-padding-left: 1rem;
+.research-intro-block {
 margin-bottom: 3rem;
-background: #f9f9f9;
-padding: 1rem;
-border-radius: 0 5px 5px 0;
+padding: 1.5rem;
+background-color: #f8f9fa;
+border-radius: 8px;
+border-left: 5px solid #005eb8;
+}
+.section-title {
+margin-top: 0;
+color: #333;
+font-size: 1.5rem;
+margin-bottom: 1rem;
+}
+.philosophy-list {
+list-style-type: none;
+padding-left: 0;
+margin: 0;
+}
+.philosophy-list li {
+margin-bottom: 1rem;
+line-height: 1.5;
+color: #444;
+position: relative;
+padding-left: 1.5rem;
+}
+.philosophy-list li::before {
+content: "→";
+position: absolute;
+left: 0;
+color: #005eb8;
+font-weight: bold;
+}
+.philosophy-list strong {
+color: #000;
+font-weight: 600;
 }
 </style>
 
-<div class="research-hook">
-"My research shifts from merely fitting models to actively guiding discovery. I develop structure-aware probabilistic methods that don't just learn from data, but efficiently decide what data to acquire next."
+
+<div class="research-intro-block">
+<h2 class="section-title">Research Philosophy</h2>
+<p>
+My research journey is driven by a shift from <strong>merely fitting models</strong> to <strong>actively guiding discovery</strong>. This evolution consists of three key realizations:
+</p>
+<ul class="philosophy-list">
+<li>
+<strong>Structure as a Prior (Phase I):</strong> 
+Early on, I realized standard ML fails to generalize in data-scarce scientific domains. I addressed this by explicitly incorporating physics and topology as <em>structural inductive biases</em>, ensuring model robustness even in under-sampled regions.
+</li>
+<li>
+<strong>Beyond Deterministic Metrics (Phase II):</strong> 
+I found deterministic improvements fragile—often outweighed by mere random seed variations. Shifting focus from "fitting data" to "knowing what we don't know," I prioritized <em>calibrated uncertainty estimates</em> over raw accuracy on static datasets.
+</li>
+<li>
+<strong>Active Decision Making (Phase III):</strong> 
+This led to my current focus on <strong>Structure-Aware Bayesian Optimization</strong>. By combining structural priors with probabilistic modeling, I develop agents that leverage uncertainty to efficiently <em>sample the input space</em> and automate scientific discovery.
+</li>
+</ul>
 </div>
+
 
 <div class="timeline-container">
 
