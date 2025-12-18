@@ -136,7 +136,7 @@ font-weight: 600;
 <div class="research-intro-block">
 <h2 class="section-title">Research Philosophy</h2>
 <p>
-My research journey is driven by a shift from <strong>merely fitting models</strong> to <strong>actively guiding discovery</strong>. This evolution consists of three key realizations:
+My research journey is driven by a shift from <strong>merely fitting the existing data</strong> to <strong>strategically acquiring the information we need.</strong>. This evolution consists of three key realizations:
 </p>
 <ul class="philosophy-list">
 <li>
