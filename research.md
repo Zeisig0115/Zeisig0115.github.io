@@ -166,7 +166,7 @@ This led to my current focus on <strong>Structure-Aware Gaussian Processes & Bay
 <h3 class="project-title">Gaussian Processes for Uncertainty Quantification of Implicit Functions</h3>
 <div class="tech-stack">
 <span class="badge">Gaussian Processes</span>
-<span class="badge">Structure-Aware ML</span>
+<span class="badge">Structure-Aware Prior</span>
 <span class="badge">Uncertainty Quantification</span>
 </div>
 
@@ -180,9 +180,9 @@ Many scientific systems exhibit non-smooth responses that behave as implicit fun
 
 <div class="project-gallery">
 <img src="/images/GP/energy_landscape.png" alt="Energy Landscape" onerror="this.style.display='none'">
-<img src="/images/GP/structured_path.png" alt="Uncertainty Propagation" onerror="this.style.display='none'">
-<img src="/images/GP/posterior.png" alt="Uncertainty Propagation" onerror="this.style.display='none'">
-<img src="/images/GP/empirical_dist.png" alt="Uncertainty Propagation" onerror="this.style.display='none'">
+<img src="/images/GP/structured_path.png" alt="structured_path" onerror="this.style.display='none'">
+<img src="/images/GP/posterior.png" alt="posterior" onerror="this.style.display='none'">
+<img src="/images/GP/empirical_dist.png" alt="empirical_dist" onerror="this.style.display='none'">
 </div>
 </div>
 
@@ -195,7 +195,7 @@ Many scientific systems exhibit non-smooth responses that behave as implicit fun
 <h3 class="project-title">Adaptable Microarray Platform for High-Throughput Bayesian Optimization</h3>
 <div class="tech-stack">
 <span class="badge">Bayesian Optimization</span>
-<span class="badge">Structure-Aware ML</span>
+<span class="badge">Structure-Aware Prior</span>
 <span class="badge">AI for Science</span>
 </div>
 
@@ -208,9 +208,9 @@ To optimize the enzymatic reaction TMB-HRP-H<sub>2</sub>O<sub>2</sub> with multi
 </p>
 
 <div class="project-gallery">
-<img src="/images/BO1/loader.png" alt="Microarray Platform" onerror="this.style.display='none'">
-<img src="/images/BO1/curves.png" alt="Microarray Platform" onerror="this.style.display='none'">
-<img src="/images/BO1/encoding.png" alt="Microarray Platform" onerror="this.style.display='none'">
+<img src="/images/BO1/loader.png" alt="Microarray Platform loader" onerror="this.style.display='none'">
+<img src="/images/BO1/curves.png" alt="curves" onerror="this.style.display='none'">
+<img src="/images/BO1/encoding.png" alt="encoding" onerror="this.style.display='none'">
 </div>
 </div>
 
@@ -220,16 +220,23 @@ To optimize the enzymatic reaction TMB-HRP-H<sub>2</sub>O<sub>2</sub> with multi
 <div class="timeline-marker"></div>
 <div class="timeline-date">2025 - Present</div>
 
-<h3 class="project-title">BO for Reactive Sputtering of Superconducting Thin Films</h3>
+<h3 class="project-title">Bayesian Optimization for Reactive Sputtering of Superconducting Thin Films</h3>
 <div class="tech-stack">
-<span class="badge">SAAS-Prior GP</span>
-<span class="badge">High-Dimensional BO</span>
+<span class="badge">Gaussian Processes</span>
+<span class="badge">Structure-Aware Prior</span>
+<span class="badge">AI for Science</span>
+</div>
+
+<div class="advisor-info" style="margin-top: 8px; margin-bottom: 8px; font-weight: 500; color: #555;">
+<i class="fas fa-user-graduate"></i> Advisor: <a href="https://jingjieyeo.github.io/about.html" target="_blank" style="text-decoration: none; color: #0066cc;">Dr. Jingjie Yeo</a> (Cornell University)
 </div>
 
 <p>
 Improved calibration in high-dimensional materials synthesis. Benchmarked reactive sputtering meta-learning studies and fixed Gaussian Process Regression implementations that neglected inter-feature correlations. Replaced standard models with SAAS-prior GPs, demonstrating that Attentive Neural Processes (ANP) yield more reliable uncertainty estimates for downstream optimization compared to traditional methods.
 </p>
 </div>
+
+
 
 <div class="timeline-item">
 <div class="timeline-marker"></div>
@@ -238,18 +245,26 @@ Improved calibration in high-dimensional materials synthesis. Benchmarked reacti
 <h3 class="project-title">Transformer-based Any-step Dynamics Model for Model-based RL</h3>
 <div class="tech-stack">
 <span class="badge">Model-Based RL</span>
-<span class="badge">Transformers</span>
-<span class="badge">Closed-Loop Control</span>
+<span class="badge">Learning for Control</span>
+</div>
+
+<div class="advisor-info" style="margin-top: 8px; margin-bottom: 8px; font-weight: 500; color: #555;">
+<i class="fas fa-user-graduate"></i> Course: <a href="https://www.cs.cornell.edu/courses/cs4756/2025sp/" target="_blank" style="text-decoration: none; color: #0066cc;">CS 5756</a> (Cornell University)
 </div>
 
 <p>
-Moving from static data to sequential prediction. Proposed TADM to replace GRU encoders in dynamics modeling, enabling parallel training and reducing compounding errors in long-horizon rollouts. Achieved faster convergence and lower held-out NLL on Hopper-v5 benchmarks compared to ensemble baselines.
+Revisiting Any-step Dynamics Models for MBRL. While reproducing an ICLR paper on Any-step Dynamics Model, I identified a discrepancy between the authors' reported error analysis and their appendix results. I hypothesized that the issue stemmed from the GRU encoder's inability to handle long-horizon dependencies effectively. I built a Transformer-based variant (TADM) that replaces the recurrent backbone with an attention mechanism. The resulting model not only corrected the error scaling behavior but also enabled parallel training , achieving state-of-the-art sample efficiency on MuJoCo benchmarks with significantly lower held-out NLL.
 </p>
 
 <div class="project-gallery">
-<img src="/images/mbrl_transformer.png" alt="Transformer Attention" onerror="this.style.display='none'">
+<img src="/images/MBRL/structure.png" alt="structure" onerror="this.style.display='none'">
+<img src="/images/MBRL/reward.png" alt="reward" onerror="this.style.display='none'">
+<img src="/images/MBRL/error.png" alt="error" onerror="this.style.display='none'">
+<img src="/images/MBRL/Hopper.gif" alt="Hopper" onerror="this.style.display='none'">
 </div>
 </div>
+
+
 
 <div class="timeline-item">
 <div class="timeline-marker"></div>
