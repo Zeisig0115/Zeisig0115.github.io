@@ -308,7 +308,7 @@ Physics-Informed LNP Characterization via SAXS. To address the scarcity of reali
 </div>
 
 <div class="advisor-info" style="margin-top: 8px; margin-bottom: 8px; font-weight: 500; color: #555;">
-<i class="fas fa-user-graduate"></i> Advisor: <a href="https://junqing-zhang.github.io/" target="_blank" style="text-decoration: none; color: #0066cc;">Prof. Junqing Zhang</a> (Cornell University)
+<i class="fas fa-user-graduate"></i> Advisor: <a href="https://junqing-zhang.github.io/" target="_blank" style="text-decoration: none; color: #0066cc;">Prof. Junqing Zhang</a> (University of Liverpool)
 </div>
 
 <p>
@@ -327,21 +327,30 @@ Robust NFC Device Identification via Domain-Adversarial Learning. Standard RF fi
 
 
 
-
 <div class="timeline-item">
 <div class="timeline-marker"></div>
-<div class="timeline-date">2022 - 2024 (Phase I)</div>
+<div class="timeline-date">2022 - 2023</div>
 
-<h3 class="project-title">Structure-Aware ML for Hardware & Signals</h3>
+<h3 class="project-title">Perovskite-based Optoelectronic Artificial Synaptic TFT</h3>
 <div class="tech-stack">
-<span class="badge">Domain Adaptation</span>
 <span class="badge">Neuromorphic Computing</span>
+<span class="badge">Physics-informed ML</span>
+<span class="badge">Perovskite</span>
+</div>
+
+<div class="advisor-info" style="margin-top: 8px; margin-bottom: 8px; font-weight: 500; color: #555;">
+<i class="fas fa-user-graduate"></i> Advisor: <a href="https://scholar.xjtlu.edu.cn/en/persons/ChunZhao/" target="_blank" style="text-decoration: none; color: #0066cc;">Prof. Chun Zhao</a> (Xi'an Jiaotong-Liverpool University)
 </div>
 
 <p>
-<strong>Perovskite Synaptic TFTs:</strong> Bridged device physics to learning rules by parameterizing ANN updates to match measured LTP/LTD conductance curves of CsFAMA transistors.<br><br>
-<strong>NFC Device Identification:</strong> Developed a domain-adversarial pipeline to mitigate position-induced offsets in NFC signals, achieving robust cross-position generalization and eliminating handcrafted feature extraction.
+Physics-Informed Learning for Perovskite-based Neuromorphic Systems. Treating emerging synaptic devices merely as noisy approximations of ideal weights often leads to unstable performance. To bridge the gap between device physics and learning dynamics, we characterized the potentiation-depression dynamics of CsFAMA perovskite TFTs and integrated these hardware constraints directly into the neural network's weight-update equations. We further enhanced this device-aware pipeline by incorporating influence-based relabeling strategies (RDIA-LS) to mitigate the effect of label noise. This co-design approach aligned learning dynamics with hardware behavior, demonstrating superior robustness under extreme noise regimes (up to 80%) and leading to a publication in <em>Nano Energy</em>.
 </p>
+
+<div class="project-gallery">
+<img src="/images/TFT/workflow.png" alt="workflow" onerror="this.style.display='none'">
+<img src="/images/TFT/device.png" alt="device" onerror="this.style.display='none'">
+<img src="/images/TFT/covid.png" alt="covid" onerror="this.style.display='none'">
+</div>
 </div>
 
 </div>
