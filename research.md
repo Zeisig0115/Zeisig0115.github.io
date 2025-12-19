@@ -130,6 +130,41 @@ font-weight: bold;
 color: #000;
 font-weight: 600;
 }
+
+
+/* 新增：阶段分隔标题 */
+.phase-header {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 0; /* 对齐圆点 */
+}
+
+.phase-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #005eb8; /* 使用您的主题色 */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: #fff; /* 遮挡背景线，如果需要的话，或者保持透明 */
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+/* 如果想让Phase标题也有个特殊的圆点 */
+.phase-header::before {
+    content: '';
+    position: absolute;
+    left: -2.9rem; /* 调整位置以对齐时间轴线 */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 4px; /* 横杠形状，或者用大圆点 */
+    background: #005eb8;
+}
+
+
 </style>
 
 
@@ -157,11 +192,13 @@ This led to my current focus on <strong>Structure-Aware Gaussian Processes & Bay
 
 <div class="timeline-container">
 
-
+<div class="timeline-item phase-header" style="margin-bottom: 1.5rem;">
+    <h3>Phase III: Active Decision Making</h3>
+</div>
 
 <div class="timeline-item">
 <div class="timeline-marker"></div>
-<div class="timeline-date">2025 - Present (Phase III)</div>
+<div class="timeline-date">2025 - Present</div>
 
 <h3 class="project-title">Gaussian Processes for Uncertainty Quantification of Implicit Functions</h3>
 <div class="tech-stack">
@@ -237,10 +274,14 @@ Improved calibration in high-dimensional materials synthesis. Benchmarked reacti
 </div>
 
 
+<div class="timeline-item phase-header" style="margin-bottom: 1.5rem;">
+    <h3>Phase II: Beyond Deterministic Metrics</h3>
+</div>
+
 
 <div class="timeline-item">
 <div class="timeline-marker"></div>
-<div class="timeline-date">2024 - 2025 (Phase II)</div>
+<div class="timeline-date">2024 - 2025</div>
 
 <h3 class="project-title">Transformer-based Any-step Dynamics Model for Model-based RL</h3>
 <div class="tech-stack">
@@ -294,6 +335,10 @@ Physics-Informed LNP Characterization via SAXS. To address the scarcity of reali
 </div>
 </div>
 
+
+<div class="timeline-item phase-header" style="margin-bottom: 1.5rem; margin-top: 4rem;">
+    <h3>Phase I: Structure as a Prior</h3>
+</div>
 
 
 <div class="timeline-item">
