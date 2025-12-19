@@ -291,7 +291,36 @@ Physics-Informed LNP Characterization via SAXS. To address the scarcity of reali
 <img src="/images/LNP/synthesis.png" alt="synthesis" onerror="this.style.display='none'">
 <img src="/images/LNP/metrics.png" alt="metrics" onerror="this.style.display='none'">
 </div>
+</div>
 
+
+
+<div class="timeline-item">
+<div class="timeline-marker"></div>
+<div class="timeline-date">2023 - 2024</div>
+
+<h3 class="project-title">NFC Device Identification Using Deep Learning and RF Fingerprinting</h3>
+<div class="tech-stack">
+<span class="badge">AI for Science</span>
+<span class="badge">Physics-based Simulation</span>
+</div>
+
+<div class="advisor-info" style="margin-top: 8px; margin-bottom: 8px; font-weight: 500; color: #555;">
+<i class="fas fa-user-graduate"></i> Advisor: <a href="https://junqing-zhang.github.io/" target="_blank" style="text-decoration: none; color: #0066cc;">Prof. Junqing Zhang</a> (Cornell University)
+</div>
+
+<p>
+Robust NFC Device Identification via Domain-Adversarial Learning. Standard RF fingerprinting often fails to generalize when reader-tag geometries change, primarily due to position-induced carrier-frequency offsets (CFO) and systematic signal distortions. Instead of treating these variations as random noise, we formulated the problem as a structured domain shift and developed a deep learning pipeline operating directly on raw baseband waveforms. By integrating multi-proxy metric learning strategies, our framework explicitly learns position-invariant representations, achieving 98.4% cross-configuration accuracy and mitigate the need for handcrafted feature extraction.
+</p>
+
+<div class="project-gallery">
+<img src="/images/NFC/workflow.png" alt="workflow" onerror="this.style.display='none'">
+<img src="/images/NFC/losses.png" alt="losses" onerror="this.style.display='none'">
+<img src="/images/NFC/soft.png" alt="soft" onerror="this.style.display='none'">
+<img src="/images/NFC/anomaly.png" alt="anomaly" onerror="this.style.display='none'">
+<img src="/images/NFC/source.png" alt="source" onerror="this.style.display='none'">
+<img src="/images/NFC/target.png" alt="target" onerror="this.style.display='none'">
+</div>
 </div>
 
 
