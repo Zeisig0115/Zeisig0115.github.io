@@ -1,13 +1,13 @@
 # --------------------------------------------------
 #  BASIC SITE INFO
 # --------------------------------------------------
-title: Tianyou Li   # Main site title (appears in browser tab & RSS)
-tagline: Here is personal website of Tianyou Li. Powered by Jekyll, based on the Minimal Mistakes theme.  # Optional short tagline, used by some layouts
-description: Here is personal website of Tianyou Li, currently a Research Assistant at Cornell University.  # Strongly recommended for SEO & social cards
+title: Tianyou Li (李天佑)  # Main site title (appears in browser tab & RSS)
+tagline: Personal website of Tianyou Li (李天佑), Research Assistant at Cornell University.  # Optional short tagline, used by some layouts
+description: Tianyou Li (李天佑) is a Research Assistant at Cornell University specializing in Gaussian Processes, Bayesian Optimization, and Scientific Machine Learning. M.Eng. from Cornell, B.Eng. from U of Liverpool.  # Strongly recommended for SEO & social cards
 
 # TIP ── For local development you can comment out `url`
 # and build with relative paths. In production you want this set.
-#url: https://caihanlin.com
+url: "https://zeisig0115.github.io"
 
 # --------------------------------------------------
 #  AUTHOR / PROFILE DATA
@@ -22,6 +22,7 @@ owner:
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   github: Zeisig0115
   scholar: https://scholar.google.com/citations?hl=en&user=EiTu9zIAAAAJ
+  linkedin: https://www.linkedin.com/in/tianyou-li-b13111350/
   # facebook: caihanlin2002
   # lastfm:
   # tumblr:
