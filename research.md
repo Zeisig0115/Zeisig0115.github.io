@@ -269,7 +269,7 @@ To optimize the enzymatic reaction TMB-HRP-H<sub>2</sub>O<sub>2</sub> with multi
 </div>
 
 <p>
-Improved calibration in high-dimensional materials synthesis. Benchmarked reactive sputtering meta-learning studies and fixed Gaussian Process Regression implementations that neglected inter-feature correlations. Replaced standard models with SAAS-prior GPs, demonstrating that Attentive Neural Processes (ANP) yield more reliable uncertainty estimates for downstream optimization compared to traditional methods.
+Enhanced Surrogate Modeling for Reactive Sputtering. Benchmarked reactive sputtering meta-learning studies and fixed Gaussian Process Regression implementations that neglected inter-feature correlations. Replaced standard models with SAAS-prior GPs, demonstrating that Attentive Neural Processes (ANP) yield more reliable uncertainty estimates for downstream optimization compared to traditional methods.
 </p>
 </div>
 
@@ -357,7 +357,7 @@ Physics-Informed LNP Characterization via SAXS. To address the scarcity of reali
 </div>
 
 <p>
-Robust NFC Device Identification via Domain-Adversarial Learning. Standard RF fingerprinting often fails to generalize when reader-tag geometries change, primarily due to position-induced carrier-frequency offsets (CFO) and systematic signal distortions. Instead of treating these variations as random noise, we formulated the problem as a structured domain shift and developed a deep learning pipeline operating directly on raw baseband waveforms. By integrating multi-proxy metric learning strategies, our framework explicitly learns position-invariant representations, achieving 98.4% cross-configuration accuracy and mitigate the need for handcrafted feature extraction.
+Robust NFC Device Identification via Domain-Adversarial Learning. Standard RF fingerprinting often fails to generalize when reader-tag geometries change, primarily due to position-induced carrier-frequency offsets (CFO) and systematic signal distortions. Instead of treating these variations as random noise, we formulated the problem as a structured domain shift and developed a deep learning pipeline operating directly on raw baseband waveforms. By integrating multi-proxy metric learning strategies, our framework explicitly learns position-invariant representations, achieving 98.4% cross-configuration accuracy and eliminating the need for handcrafted feature extraction.
 </p>
 
 <div class="project-gallery">
