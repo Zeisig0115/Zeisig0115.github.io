@@ -274,6 +274,7 @@ Revisiting Any-step Dynamics Models for MBRL. While reproducing an ICLR paper on
 <div class="tech-stack">
 <span class="badge">AI for Science</span>
 <span class="badge">Physics-based Simulation</span>
+<span class="badge">Lipid Nanoparticle</span>
 </div>
 
 <div class="advisor-info" style="margin-top: 8px; margin-bottom: 8px; font-weight: 500; color: #555;">
@@ -301,8 +302,9 @@ Physics-Informed LNP Characterization via SAXS. To address the scarcity of reali
 
 <h3 class="project-title">NFC Device Identification Using Deep Learning and RF Fingerprinting</h3>
 <div class="tech-stack">
-<span class="badge">AI for Science</span>
-<span class="badge">Physics-based Simulation</span>
+<span class="badge">Metric Learning</span>
+<span class="badge">Structure-aware Prior</span>
+<span class="badge">RF Fingerprinting</span>
 </div>
 
 <div class="advisor-info" style="margin-top: 8px; margin-bottom: 8px; font-weight: 500; color: #555;">
