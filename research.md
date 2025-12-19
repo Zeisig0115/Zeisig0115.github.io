@@ -270,16 +270,32 @@ Revisiting Any-step Dynamics Models for MBRL. While reproducing an ICLR paper on
 <div class="timeline-marker"></div>
 <div class="timeline-date">2024 - 2025</div>
 
-<h3 class="project-title">Characterization of LNP Drug Delivery Vehicles by ML</h3>
+<h3 class="project-title">Characterization of LNP Drug Delivery Vehicles by Machine Learning</h3>
 <div class="tech-stack">
-<span class="badge">Generative Modeling</span>
-<span class="badge">Physics Simulation</span>
+<span class="badge">AI for Science</span>
+<span class="badge">Physics-based Simulation</span>
+</div>
+
+<div class="advisor-info" style="margin-top: 8px; margin-bottom: 8px; font-weight: 500; color: #555;">
+<i class="fas fa-user-graduate"></i> Advisor: <a href="https://doerschuklab.bme.cornell.edu/people/" target="_blank" style="text-decoration: none; color: #0066cc;">Prof. Peter Doerschuk</a> (Cornell University)
 </div>
 
 <p>
-Addressed data scarcity by building a physics-informed small-angle X-ray scattering (SAXS) simulator. Synthesized high-fidelity scattering data from 3D morphologies to pretrain dual-task CNN/ResNet architectures. This created a scalable screening proxy that identifies dominant LNP types and estimates mixture fractions with 96% accuracy, reducing reliance on expensive cryo-EM imaging.
+Physics-Informed LNP Characterization via SAXS. To address the scarcity of realistic Small-Angle X-ray Scattering (SAXS) data for Lipid Nanoparticle (LNP) characterization, we constructed a physics-based simulator that synthesizes high-fidelity scattering profiles from cryo-EM morphologies using FFT approximations. By leveraging this synthetic data to pretrain dual-task deep learning architectures before fine-tuning on limited experimental measurements, we bridged the gap between theoretical physical laws and data-driven correlations. This sim-to-real framework achieved robust generalization (R<sup>2</sup> > 0.96) on held-out data, establishing a scalable computational proxy that significantly reduces reliance on expensive electron microscopy.
 </p>
+
+<div class="project-gallery">
+<img src="/images/LNP/workflow.png" alt="workflow" onerror="this.style.display='none'">
+<img src="/images/LNP/SAXS.png" alt="SAXS" onerror="this.style.display='none'">
+<img src="/images/LNP/noise.png" alt="noise" onerror="this.style.display='none'">
+<img src="/images/LNP/synthesis.png" alt="synthesis" onerror="this.style.display='none'">
+<img src="/images/LNP/metrics.png" alt="metrics" onerror="this.style.display='none'">
 </div>
+
+</div>
+
+
+
 
 <div class="timeline-item">
 <div class="timeline-marker"></div>
