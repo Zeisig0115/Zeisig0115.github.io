@@ -93,7 +93,7 @@ kramdown:
 #  DISQUS COMMENT SYSTEM
 # --------------------------------------------------
 disqus:
-  shortname: lancecai
+  shortname: Tianyou Li
 
 
 # include: [".htaccess"]
