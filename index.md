@@ -41,7 +41,7 @@ I am always open to academic discussions and potential collaborations. Please fe
 ## News and Updates
 
 - Dec 2025: My personal website is officially online.
-- May 2024: I graduated from **Cornell University** with an M.Eng. degree in ECE.
+- May 2025: I graduated from **Cornell University** with an M.Eng. degree in ECE.
 - Jul 2024: I received my B.Eng. degree from the **University of Liverpool** with **First Class Honours**.
 - Dec 2023: A new paper on **perovskite-based neuromorphic computing** was accepted by **Nano Energy** (**IF**: 16.8).
 
